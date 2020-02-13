@@ -1,0 +1,36 @@
+header{
+    background-color: #C2E9E9;
+    text-align: right;
+    padding: 10px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+main{
+    margin: 10px;
+}
+main .article{
+    margin-bottom: 10px;
+    border: 5px solid #c3ecec;
+    background-color: #E8FBFB;
+    padding: 10px;
+}
+aside{
+    margin: 10px;
+    border: 4px solid;
+    padding: 5px;
+    background-color: #C2E9E9;
+    height: 150px;
+}
+.article h2 span{
+    border-bottom: 3px dashed;
+}
+.article img{
+    float: right;
+}
+.clear{
+    clear: both;
+}
